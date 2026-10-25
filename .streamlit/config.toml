@@ -1,0 +1,45 @@
+[theme]
+font = "sans serif"
+baseRadius = "0.7rem"
+buttonRadius = "0.65rem"
+showWidgetBorder = true
+showSidebarBorder = true
+paddingTop = "1.5rem"
+paddingBottom = "2rem"
+
+[theme.light]
+primaryColor = "#6d28d9"
+backgroundColor = "#f6f7fb"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1b2433"
+borderColor = "#d9dfeb"
+codeBackgroundColor = "#eef1f7"
+chartCategoricalColors = ["#6d28d9", "#059669", "#d97706", "#2563eb", "#dc4565"]
+
+[theme.dark]
+primaryColor = "#7c3aed"
+backgroundColor = "#0b1020"
+secondaryBackgroundColor = "#131d31"
+textColor = "#e8edf7"
+borderColor = "#2d3a54"
+codeBackgroundColor = "#10192a"
+chartCategoricalColors = ["#a78bfa", "#34d399", "#fbbf24", "#60a5fa", "#fb7185"]
+
+[theme.light.sidebar]
+backgroundColor = "#eef1f7"
+secondaryBackgroundColor = "#e4e9f2"
+textColor = "#1b2433"
+borderColor = "#d5dce8"
+primaryColor = "#6d28d9"
+linkColor = "#6d28d9"
+
+[theme.dark.sidebar]
+backgroundColor = "#10182a"
+secondaryBackgroundColor = "#131d31"
+textColor = "#e8edf7"
+borderColor = "#2d3a54"
+primaryColor = "#7c3aed"
+linkColor = "#b9a3ff"
+
+[server]
+headless = false
